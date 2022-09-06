@@ -2,5 +2,8 @@
   "extends": "standard-with-typescript",
   "parserOptions": {
     "project": "./tsconfig.json"
+  },
+  "@typescript-eslint/explicit-function-return-type": {
+    "allowExpressions": true
   }
 }
