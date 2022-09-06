@@ -20,4 +20,8 @@ module.exports = {
 	},
 	setupFiles: ['./jest.setup.ts'],
 	setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+
+	testMatch: [
+    '<rootDir>/**/*.spec.ts',
+  ],
 }
