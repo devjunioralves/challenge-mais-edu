@@ -1,22 +1,22 @@
 {
-  "compilerOptions": {
-    "experimentalDecorators": true,
-    "outDir": "./dist",
-    "module": "commonjs",
-    "target": "es2019",
-    "esModuleInterop": true,
-    "strictNullChecks": true,
-    "rootDir": "src",
-    "baseUrl": "src",
-    "paths":{
-      "@application/*": ["application/*"],
-      "@config/*": ["config/*"],
-      "@di/*": ["di/*"],
-      "@infrastructure/*": ["infrastructure/*"],
-      "@presentation/*": ["presentation/*"],
-      "@domain/*": ["domain/*"],
-      "@shared/*": ["shared/*"],
-      "@src/*": ["./*"]
-    }
-  }
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"outDir": "./dist",
+		"module": "commonjs",
+		"target": "es2019",
+		"esModuleInterop": true,
+		"strictNullChecks": true,
+		"rootDir": "src",
+		"baseUrl": "src",
+		"paths": {
+			"@application/*": ["application/*"],
+			"@config/*": ["config/*"],
+			"@di/*": ["di/*"],
+			"@infrastructure/*": ["infrastructure/*"],
+			"@presentation/*": ["presentation/*"],
+			"@domain/*": ["domain/*"],
+			"@shared/*": ["shared/*"],
+			"@src/*": ["./*"]
+		}
+	}
 }

@@ -1,13 +1,13 @@
 module.exports = {
-  // roots: ['<rootDir>/src'],
-  rootDir: 'src',
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
-  coverageDirectory: 'coverage',
-  testEnvironment: 'node',
-  transform: {
-    '.+\\.ts$': 'ts-jest'
-  },
-  moduleNameMapper: {
+	// roots: ['<rootDir>/src'],
+	rootDir: 'src',
+	collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
+	coverageDirectory: 'coverage',
+	testEnvironment: 'node',
+	transform: {
+		'.+\\.ts$': 'ts-jest',
+	},
+	moduleNameMapper: {
 		'^@application/(.*)$': '<rootDir>/application/$1',
 		'^@config/(.*)$': '<rootDir>/config/$1',
 		'^@di/(.*)$': '<rootDir>/di/$1',
@@ -18,4 +18,6 @@ module.exports = {
 		'^@shared/(.*)$': '<rootDir>/shared/$1',
 		'^@src/(.*)$': '<rootDir>/$1',
 	},
+	setupFiles: ['./jest.setup.ts'],
+	setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 }
