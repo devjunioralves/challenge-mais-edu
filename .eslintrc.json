@@ -3,7 +3,9 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "@typescript-eslint/explicit-function-return-type": {
-    "allowExpressions": true
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": {
+      "allowExpressions": true
+    }
   }
 }
