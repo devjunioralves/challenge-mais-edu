@@ -20,7 +20,7 @@ export default class CreateStudentController extends BaseController {
 	public async execute(request: IRequest) {
 		try {
 			const { name, email, ra, cpf } = request.body
-			const result = this.studentAppService.create({
+			const result = await this.studentAppService.create({
 				name,
 				email,
 				ra,
