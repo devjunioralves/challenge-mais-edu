@@ -1,0 +1,10 @@
+- Domain
+    - Everything that represent something, an object, person, company, and etc;
+    - It's the core of the project, the idea behind it, is how and what the project works.
+- Infrastructure
+    - There contains high level coulping, here I would have things like documentations services, database conections and etc.
+- Presentation
+    - Everything related about the way how is presented for the client: routes, controllers, or another ways to enable the client to consume our project.
+- Shared
+    - How the name says, it's code shared with several layers, folders and files.
+    - The things putted here, can be accessed for any file.
